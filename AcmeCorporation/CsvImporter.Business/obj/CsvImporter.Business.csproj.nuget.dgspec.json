@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Business\\CsvImporter.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Business\\CsvImporter.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Business\\CsvImporter.Business.csproj",
+        "projectName": "CsvImporter.Business",
+        "projectPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Business\\CsvImporter.Business.csproj",
+        "packagesPath": "C:\\Users\\ixwk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ixwk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj": {
+                "projectPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj"
+              },
+              "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Data\\CsvImporter.Data.csproj": {
+                "projectPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Data\\CsvImporter.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj",
+        "projectName": "CsvImporter.Common",
+        "projectPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj",
+        "packagesPath": "C:\\Users\\ixwk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ixwk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Data\\CsvImporter.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Data\\CsvImporter.Data.csproj",
+        "projectName": "CsvImporter.Data",
+        "projectPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Data\\CsvImporter.Data.csproj",
+        "packagesPath": "C:\\Users\\ixwk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ixwk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj": {
+                "projectPath": "C:\\Users\\ixwk\\Desktop\\plataforma\\propuestas\\selecta\\Analyticalways\\AcmeCorporation\\CsvImporter.Common\\CsvImporter.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

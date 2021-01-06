@@ -1,0 +1,9 @@
+2021-01-04 23:38:26.606 -03:00 [INF] Building service provider
+2021-01-04 23:38:26.709 -03:00 [INF] Starting service
+2021-01-04 23:38:26.755 -03:00 [INF] Start Import CsvFile
+2021-01-04 23:38:26.763 -03:00 [INF] Preparing import CSV rows
+2021-01-04 23:38:26.767 -03:00 [INF] Connect to input file
+2021-01-04 23:38:26.776 -03:00 [INF] Connect to output database
+2021-01-04 23:38:26.780 -03:00 [INF] Execute import CSV rows
+2021-01-04 23:38:44.070 -03:00 [ERR] Cannot open database "AAcmeCorpDB" requested by the login. The login failed.
+Login failed for user 'CT\ixwk'.

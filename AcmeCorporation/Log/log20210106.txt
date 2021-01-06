@@ -1,0 +1,8 @@
+2021-01-06 00:38:24.304 -03:00 [INF] Building service provider
+2021-01-06 00:38:24.399 -03:00 [INF] Starting service
+2021-01-06 00:38:24.478 -03:00 [INF] Start Import CsvFile
+2021-01-06 00:38:24.482 -03:00 [INF] Preparing import CSV rows
+2021-01-06 00:38:24.483 -03:00 [INF] Connect to input file
+2021-01-06 00:38:26.434 -03:00 [INF] Connect to output database
+2021-01-06 00:38:26.436 -03:00 [INF] Execute import CSV rows
+2021-01-06 00:52:09.730 -03:00 [INF] Ending service

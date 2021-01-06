@@ -1,0 +1,6 @@
+2021-01-04 21:46:36.357 -03:00 [INF] Creating service collection
+2021-01-04 21:46:36.779 -03:00 [INF] Building service provider
+2021-01-04 21:46:36.781 -03:00 [INF] Starting service
+2021-01-04 21:46:36.819 -03:00 [INF] Start Import CsvFile
+2021-01-04 21:46:43.724 -03:00 [INF] Execute
+2021-01-04 21:46:44.536 -03:00 [INF] Ending service
