@@ -15,7 +15,7 @@ La aplicación permite cargar datos desde una conexión remota pero también si 
 Esto debe ser definido en el archivo appsettings.json indicando el tipo de conexión del archivo (Local/Remote).
 
 
-## Caracteristicas:
+## Caracteristicas
 La aplicación utiliza una implementación propia de IDataReader que agrega capacidades
 para usarse junto a librerias ADO.NET comunes como SqlBulkCopy.
 También se contemplo el uso de otras librerias o métodos como el uso de Datatable
@@ -32,29 +32,28 @@ La aplicación permite la configuracion de parametros para poder modificar los d
 la ubicación del archivo CSV, si se encuentra en una carpeta o si la conexión debe ser remota,
 configuración de la base de datos y la tabla destino de los datos.
 
-Las configuraciones pueden encontrarse en appsettings.json, para esto se usan los siguiente paquetes Nuget
+Las configuraciones pueden encontrarse en appsettings.json, para esto se usan los siguientes paquetes Nuget
 La configuracion se inyecta en el metodo principal en lugar del metodo de inicio
 como las aplicaciones web, pero el codigo es esencialmente el mismo.
   
        Microsoft.Extensions.Configuration
        Microsoft.Extensions.Configuration.FileExtensions
        Microsoft.Extensions.Configuration.Json
-	   Microsoft.Extensions.DependencyInjection
+       Microsoft.Extensions.DependencyInjection
 
-Para la inyeccion de dependencias se deben instalar los siguinetes paquetes
+Para la inyeccion de dependencias se han utilizado los siguientes paquetes
 
-		Microsoft.Extensions.Logging
-		Microsoft.Extensions.Logging.Console
-		Microsoft.Extensions.DependencyInjection
+	Microsoft.Extensions.Logging
+	Microsoft.Extensions.Logging.Console
+	Microsoft.Extensions.DependencyInjection
 		
-Para el logging se usa la librería seriilog, tiene mas funciones que la librería por default
+Para el logging se ha utilizado la librería seriilog, tiene mas funciones que la librería por default
 del framework .NET
 
-		Microsoft.Extensions.Hosting
-		Serilog.Extensions.Logging
-		Serilog.Settings.Configuration
-		Serilog.Sinks.File
-		
+	Microsoft.Extensions.Hosting
+	Serilog.Extensions.Logging
+	Serilog.Settings.Configuration
+	Serilog.Sinks.File	
 	
 ## Unit Test
 Las funciones mencionadas antes pueden encontrarse en el proyecto de Unit Test.
