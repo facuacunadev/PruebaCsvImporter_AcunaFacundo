@@ -6,7 +6,7 @@ La siguiente solucion contiene la definicion y las librerias para el utility Csv
 La aplicación permite la importación de un archivo CSV a un tabla en una base de datos local.
 
 
-## Preparación y uso:
+## Preparación y uso
 Antes de ejecutar la aplicación aseguresé de tener una conexión a internet estable, 
 los parámetros sean correctos en el archivo appsettings.json y sobretodo ejecutar el archivo 
 DatabaseQuery.sql en su motor MSSQL Server local, (el archivo esta en AcmeCorporation\CsvImporter.Data\Scripts).
@@ -36,10 +36,10 @@ Las configuraciones pueden encontrarse en appsettings.json, para esto se usan lo
 La configuracion se inyecta en el metodo principal en lugar del metodo de inicio
 como las aplicaciones web, pero el codigo es esencialmente el mismo.
   
-       Microsoft.Extensions.Configuration
-       Microsoft.Extensions.Configuration.FileExtensions
-       Microsoft.Extensions.Configuration.Json
-       Microsoft.Extensions.DependencyInjection
+ 	Microsoft.Extensions.Configuration
+	Microsoft.Extensions.Configuration.FileExtensions
+	Microsoft.Extensions.Configuration.Json
+	Microsoft.Extensions.DependencyInjection
 
 Para la inyeccion de dependencias se han utilizado los siguientes paquetes
 
