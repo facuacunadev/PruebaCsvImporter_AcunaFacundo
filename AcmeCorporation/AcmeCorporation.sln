@@ -11,12 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvImporter.Data", "CsvImpo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvImporter.Common", "CsvImporter.Common\CsvImporter.Common.csproj", "{BE82D0D8-BD5E-42D5-83A8-74193A7CAF94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvImporter.Test", "CsvImporter.Test\CsvImporter.Test.csproj", "{E850277B-E172-4BCA-B2EB-157440603498}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA96B1FD-8A5E-4AA1-B7B7-F7175EA08FFF}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvImporter.Test", "CsvImporter.Test\CsvImporter.Test.csproj", "{E850277B-E172-4BCA-B2EB-157440603498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
