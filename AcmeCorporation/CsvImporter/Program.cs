@@ -47,8 +47,7 @@ namespace CsvImporter
             }
             catch (Exception ex)
             {
-                Log.Fatal(ex, ex.Message);
-                throw new Exception(ex.Message);
+                Log.Fatal(ex, ex.ToString());
             }
             finally
             {

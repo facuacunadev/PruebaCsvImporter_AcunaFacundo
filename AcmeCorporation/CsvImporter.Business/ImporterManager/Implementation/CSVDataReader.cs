@@ -74,7 +74,6 @@ namespace CsvImporter.Business.ImporterManager.Implementation
                     if (headercollection.Contains(item) == true){
                         var message = "Duplicate found in CSV header. Cannot create a CSV reader instance with duplicate header";
                         _logger.LogError(message);
-                        throw new Exception(message);
                     }
                     headercollection.Add(item, null);
                 }
@@ -121,7 +120,6 @@ namespace CsvImporter.Business.ImporterManager.Implementation
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw new Exception(ex.Message);
             }
      
             

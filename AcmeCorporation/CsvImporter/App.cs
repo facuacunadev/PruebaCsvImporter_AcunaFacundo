@@ -32,7 +32,7 @@ namespace CsvImporter
         public async Task Run()
         {
             _settings = new AppSettings();
-            GetConfigurationSettings(ref _settings);
+            GetConfigurationSettings(_settings);
 
             if (!ValidatesDelimiter(_settings.CsvDelimiter))
                 throw new Exception("Invalid delimiter format, delimiter only can be comma or semicolon");
@@ -63,7 +63,7 @@ namespace CsvImporter
         }
 
 
-        private void GetConfigurationSettings(ref AppSettings _settings)
+        private void GetConfigurationSettings(AppSettings _settings)
         {
             _settings.ConnectionString = _config.GetSection("ConnectionStrings:DatabaseConnection").Value;
             _settings.TableName = _config.GetSection("ConnectionStrings:DatabaseTable").Value;

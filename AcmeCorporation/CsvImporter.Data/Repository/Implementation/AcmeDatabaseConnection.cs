@@ -60,7 +60,6 @@ namespace CsvImporter.Data.Repository.Implementation
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw new Exception(ex.Message);
             }
         }
 
@@ -81,7 +80,6 @@ namespace CsvImporter.Data.Repository.Implementation
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw new Exception(ex.Message);
             }
             finally
             {
@@ -107,7 +105,6 @@ namespace CsvImporter.Data.Repository.Implementation
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
-                throw new Exception(ex.Message);
             }
             finally
             {
